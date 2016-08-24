@@ -1,0 +1,75 @@
+.parachart-newchart{
+  cursor: pointer;
+  border: 2px dashed rgb(175,175,175);
+  height:100px;
+  line-height: 100px;
+  text-align: center;
+}
+.parachart-item, .parachart-newchart{
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+.parachart-item{
+  position: relative;
+  text-align:center;
+  font-size: 16px;
+  border: 2px solid rgb(175,175,175);
+  line-height: 50px;
+}
+.parachart-item-title{
+  height: 100px;
+  line-height: 100px;
+}
+.parachart-item-collapse{
+  position: absolute;
+  cursor: pointer;
+  width:40px;
+  height:40px;
+  background: rgb(175,175,175);
+  color: rgb(255,255,255);
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  top:30px;
+  right:30px;
+  font-size: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.rotated{
+  transform:rotate(765deg);
+  -webkit-transform:rotate(765deg);
+  -moz-transform:rotate(765deg);
+  -o-transform:rotate(765deg);
+}
+.parachart-item-collapse:hover{
+  background: rgb(125,125,125);
+}
+.parachart-item-form{
+  display:none;
+  padding-bottom: 50px;
+  line-height: 15px;
+  text-align: center;
+}
+.parachart-item-form p{
+  width: 300px;
+  display: inline-block;
+}
+.parachart-item-form p label{
+  display: block;
+  float:left;
+  width:120px;
+}
+.parachart-item-form input[type=number], .parachart-item-form input[type=text], .parachart-item-form select,.parachart-item-submit input[type="submit"]{
+  width: 200px;
+}
+.parachart-item-submit input:first-child{
+}
+.parachart-item-submit input:last-child{
+}
+.parachart-item-form-errors{
+  font-size: .8em;
+  color:rgb(255,0,0);
+}

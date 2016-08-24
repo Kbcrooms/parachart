@@ -1,0 +1,31 @@
+.parachart-container{
+  margin: 0 auto;
+}
+.parachart-chart-holder{
+}
+.parachart-chart-parallax{
+  color:rgb(255,255,255);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  font-family: inherit;
+  font-size: 1.5em;
+  font-weight: lighter;
+  cursor: pointer;
+  display:table;
+  width:100%;
+}
+.parachart-chart-title{
+  display:table-cell;
+  vertical-align: middle;
+  text-align: center;
+  width:90%;
+}
+.parachart-chart-content{
+  display: none;
+  width:95%;
+  margin: 0 auto;
+  font-family: inherit;
+  color:inherit;
+}
